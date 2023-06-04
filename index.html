@@ -28,13 +28,6 @@
                 align-items: center;
                 background-color: #f9f9f9;
             }
-
-            .wishlist-item-rezervat {
-                margin-bottom: 1em;
-                display: flex;
-                align-items: center;
-                background-color: #e9e9e9;
-            }            
             
             .wishlist-item:nth-child(even) {
                 background-color: #e9e9e9;
@@ -54,6 +47,33 @@
             }
             
             .wishlist-item .price {
+                font-weight: bold;
+                text-align: right;
+                padding-left: 1em;
+                padding-right: 1em;
+                width: 8em;
+            }
+
+            .wishlist-item-rezervat {
+                margin-bottom: 1em;
+                display: flex;
+                align-items: center;
+                background-color: grey;
+            }
+            .wishlist-item-rezervat img {
+                display: block;
+                max-width: 15em;
+                margin-right: 1em;
+            }
+            
+            .wishlist-item-rezervat .text {
+                text-decoration: none;
+                color: #000;
+                font-weight: bold;
+                width: 40em;
+            }
+            
+            .wishlist-item-rezervat .price {
                 font-weight: bold;
                 text-align: right;
                 padding-left: 1em;
